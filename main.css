@@ -97,7 +97,7 @@ list-style: none;
 
 .sidebar {
     width: 75px;
-    position: absolute;
+    position: fixed;
     left: -105px;
     top: -97px;
     bottom: -265px;
@@ -108,6 +108,7 @@ list-style: none;
     justify-content: center;
     flex-direction: column;
     transition: width .3s;
+    overflow: auto;
   }
   
   .sidebar--opened {
