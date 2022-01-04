@@ -97,10 +97,10 @@ list-style: none;
 
 .sidebar {
     width: 75px;
-    position: fixed;
-    left: -105px;
-    top: -97px;
-    bottom: -265px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
     background: #212121;
     box-sizing: border-box;
     display: flex;
@@ -108,7 +108,6 @@ list-style: none;
     justify-content: center;
     flex-direction: column;
     transition: width .3s;
-    overflow: auto;
   }
   
   .sidebar--opened {
@@ -187,8 +186,7 @@ list-style: none;
   
   .side-menu__link:hover {
     color: var(--red);
-  }
-  
+  }    
 
 .fade-slider{
     width: 100%;
